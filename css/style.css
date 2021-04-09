@@ -1,9 +1,9 @@
 body {
+  margin: 0px;
 }
 
 main {
   /* width: fit-content; */
-  box-shadow: 2px 3px 5px rgba(75, 75, 75, 0.774);
   background-color: cadetblue;
 }
 
@@ -12,7 +12,7 @@ main {
 }
 
 .vehicleDisplay::-webkit-scrollbar-track {
-  background: rgb(241, 241, 241); /* color of the tracking area */
+  background: cadetblue; /* color of the tracking area */
 }
 
 .vehicleDisplay::-webkit-scrollbar-thumb {
@@ -60,7 +60,7 @@ main {
 
 .menu ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
 }
 
