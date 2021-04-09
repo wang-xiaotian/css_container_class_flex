@@ -81,3 +81,9 @@ main {
 .section h2 {
   color: purple;
 }
+
+@media only screen and (max-width: 600px) {
+  main {
+    background-color: crimson;
+  }
+}
